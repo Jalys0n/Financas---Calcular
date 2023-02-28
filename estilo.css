@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    background: #F8EBEB;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+nav a{
+    padding: 80px; 
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+}
+ nav a:hover{
+    color: #F35EAB;
+}
+
+.borda{
+    border: solid 1px #D8CBD1;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+article{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+form{
+    width: 400px;
+    box-sizing: border-box;}
+
+ label{
+    height: 70px;
+    font: 1.5rem 'Inter',sans-serif;
+    margin-bottom: 200px;
+}
+input{
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    font: 1.2rem 'Inter',sans-serif;
+    border: solid 1px black;
+    display: block;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+button {
+    margin-left: 60px;
+    height: 45px;
+    width: 40%;
+    border-radius: 10px;
+    border: solid 1px  #ccc;
+    background: #a06782;
+    font: 1.5rem 'Roboto',sans-serif;
+}
+button:hover{
+    color: white;
+    background-color: #70013A ;
+}
+
+

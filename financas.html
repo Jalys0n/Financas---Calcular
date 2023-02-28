@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Finanças</title>
+</head>
+<body>
+            <nav>
+                <a href="">Home</a>
+                <a href="">Calculadora</a>
+                <a href="">Sobre</a>
+                <a href="" id="cadastrese">Cadastre-se</a>   
+            </nav>
+            <div class="borda"></div>
+           
+            <article>
+               
+                    <div class="imgcofrinho">
+                        <img src="img/cofrinho.png">
+                    </div>
+                      
+                                <form> 
+                                    <label>Renda</label>
+                                        <input type="number" id="inputrenda">
+                                    <label>Despesas</label>
+                                        <input type="number" id="inputdividas" placeholder="1.000">
+                                    <label>Meses desejados</label>
+                                        <input type="number" id="inputmes">
+                                    <label>E-mail:</label>
+                                        <input type="email">
+                                    <button onclick="calculoreserva(inputrenda, inputdividas, inputmes)">Calcular</button>
+                                </form>
+                               
+                              
+                            </article>
+</body>
+
+<script src="script.js"></script>
+</html>
