@@ -85,4 +85,20 @@ button:hover{
     background-color: #70013A ;
 }
 
-
+#formulario-cadastro{
+    margin: 0 auto;
+}
+#formulario-cadastro input[type="submit"]{
+        margin: 0 auto;
+        background: #8DC98C;
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        border-width: 1.5px;
+}
+/*Pra ter uma singela mudança quando passar o mouse por cima do botão*/
+#formulario-cadastro input[type="submit"]:hover{
+    background: rgb(160, 160, 211);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
