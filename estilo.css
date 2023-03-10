@@ -39,6 +39,8 @@ article{
     width: 50vw;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
 }
 
 
@@ -82,21 +84,52 @@ button:hover{
     background-color: #70013A;
     font-weight: bold;
 }
-
-#formulario-cadastro{
-    margin: 0 auto;
+section{
+    display: flex;
+    justify-content: center;
+    font: 1em 'Roboto',sans-serif;
 }
-#formulario-cadastro input[type="submit"]{
-        margin: 0 auto;
-        background: #8DC98C;
-        height: 40px;
-        width: 20vw;
-        border-radius: 5px;
-        border-width: 1.5px;
+section p{
+    color: #6F7076;
+    margin-right: 850px;
 }
-/*Pra ter uma singela mudança quando passar o mouse por cima do botão*/
-#formulario-cadastro input[type="submit"]:hover{
-    background: rgb(160, 160, 211);
-    font-weight: bold;
-    font-size: 1.3em;
+ul{
+    display: flex;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+ul a:hover{
+    color: #9298BF;
+    font-size: 1.2em;
+}
+li{
+    padding-right:40px;
+}
+@media(max-width:1366px){
+        nav{
+            width: 70%;
+        }
+        nav a{
+            font-size: 1em;
+        }
+        article{
+            width: 40vw;
+        }
+        img{
+            width: 35vw;
+        }
+        label{
+            font-size: 1.1em;
+        }
+        input{
+            width: 7vw;
+            height: 4vh; 
+        }
+        button{
+            height: 4.5vh;
+            width: 7vw;
+            font-size: 1.3em;
+        }
 }
