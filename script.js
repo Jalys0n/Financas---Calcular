@@ -1,4 +1,7 @@
 /*ids: inputsalario ; inputrenda ; */
+if (inputrenda==''){
+        document.alert("ksjksjd")
+}
 
 function calculoreserva(){
 var salario, despesas,mes;
@@ -7,6 +10,7 @@ var salario, despesas,mes;
             mes = document.getElementById('inputmes').value;
     total = despesas * mes;
     guardarquantia = total/12; 
-
+        
         document.write(`A ideia de se manter ${mes} meses parados requer uma quantia de ${guardarquantia} por 12 meses, no mínimo.`)
+
 }

@@ -5,12 +5,11 @@
 }
 
 nav{
-    justify-content: center;
+    margin: 0 auto;
     text-align: center;
     height: 40px;
     background: #F8EBEB;
-    width: 70%;
-    margin: 0 auto;
+    width: 70vw;
     padding-top: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -18,9 +17,10 @@ nav{
 
 }
 nav a{
+    width: 100vw;
     padding: 80px; 
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.3em;
     color: black;
     font-weight: bold;
     font-family: 'Inter',sans-serif;
@@ -31,35 +31,32 @@ nav a{
 
 .borda{
     border: solid 1px #D8CBD1;
-    width: 70%;
+    width: 70vw;
     margin: 0 auto;
     margin-bottom: 150px;
 }
 article{
-    width: 50%;
+    width: 50vw;
     margin: 0 auto;
     display: flex;
 }
 
 
-form{
-    width: 400px;
-    box-sizing: border-box;}
+
 
  label{
-    height: 70px;
-    font: 1.5rem 'Inter',sans-serif;
+    font: 1.5em 'Inter',sans-serif;
     margin-bottom: 200px;
 }
 input{
-    width: 60%;
-    height: 35px;
-    border-radius: 5px;
-    font: 1.2rem 'Inter',sans-serif;
+    width: 7vw;
+    height: 4vh;
+    border-radius: 7px;
+    font: 1.2em 'Inter',sans-serif;
     border: solid 1px black;
     display: block;
     margin-bottom: 40px;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
@@ -72,17 +69,18 @@ input[type=number] {
 }
 
 button {
-    margin-left: 60px;
-    height: 45px;
-    width: 40%;
+    height: 5vh;
+    width: 7vw;
     border-radius: 10px;
     border: solid 1px  #ccc;
     background: #a06782;
-    font: 1.5rem 'Roboto',sans-serif;
+    font: 1.5em 'Roboto',sans-serif;
+    margin-left: 25px;
 }
 button:hover{
     color: white;
-    background-color: #70013A ;
+    background-color: #70013A;
+    font-weight: bold;
 }
 
 #formulario-cadastro{
@@ -92,7 +90,7 @@ button:hover{
         margin: 0 auto;
         background: #8DC98C;
         height: 40px;
-        width: 100px;
+        width: 20vw;
         border-radius: 5px;
         border-width: 1.5px;
 }
@@ -100,5 +98,5 @@ button:hover{
 #formulario-cadastro input[type="submit"]:hover{
     background: rgb(160, 160, 211);
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
